@@ -78,6 +78,19 @@ hr {
     z-index: 1000;
 }
 
+#sidebar-toggle {
+    position: fixed; /* so it stays at the top */
+    top: 0px;       /* adjust as needed */
+    left: 10px;      /* adjust as needed */
+    z-index: 1100;   /* above sidebar */
+    background-color: #111; /* match your sidebar color */
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
 #sidebar ul {
     list-style-type: none;
     padding: 5px;

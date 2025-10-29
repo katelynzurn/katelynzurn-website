@@ -13,6 +13,11 @@ $(function () {
             // ========= Sidebar Toggle for Mobile =========
             $('#sidebar-toggle').click(function () {
                 $('#sidebar-content').toggleClass('active');
+                $('#sidebar').slideToggle(200);
+                if ($(window).width() < 992) {
+                    $('html, body').animate({ scrollTop: 0 }, 800);
+
+                }
             });
 
             // ========= Submenu Toggle =========
