@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta content="" name="description">
+    <meta content="" name="author">
+    <link href="../../../favicon.ico" rel="icon">
+
+    <title>Projects - katelynzurn.com</title>
+    <!-- Bootstrap core CSS -->
+    <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+        integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" rel="stylesheet">
+    <!-- FontAwesome Icon Font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- LinearIcons Icon Font -->
+    <link href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css" rel="stylesheet">
+    <!-- Main Stylesheet -->
+    <link href="../css/style.css" rel="stylesheet">
+    <!-- Timeline CSS -->
+    <link href="../css/timeline.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- HAMBURGER BUTTON FOR MOBILE -->
+    <button id="sidebar-toggle">&#9776;</button>
+  
+    <!-- STICKY LEFT NAV -->
+    <nav id="sidebar">
+        <div id="sidebar-content">
+            <div id="nav-placeholder"></div>
+        </div>
+    </nav>
+  
+    <section class="section-image" id="projects-overview">
+        <div class="img-overlay"></div>
+            <div class="intro">
+                <div class="row">
+                    <div class="col-md-12">
+                    <h1>Projects</h1>
+                    <br />
+                    <br />
+                    <br />
+                    <h3>Here are some projects I've worked on, both personally and professionally.</h3>
+                </div><!-- /col-md-12 -->
+            </div><!-- /row -->
+        </div><!-- /intro -->
+    </section>
+  
+    <!-- Project 1 -->
+    <section class="section-primary" id="personal-website">
+        <div class="container">
+            <h3>Personal Website</h3>
+            <p>
+                Designed and developed a fully responsive personal portfolio website using 
+                <strong>HTML, CSS, Bootstrap, and JavaScript</strong>. The site showcases my projects and professional background 
+                with smooth navigation, dynamic interactivity, and a clean visual design.
+            </p>
+            <p>
+                The website is hosted on <strong>AWS S3</strong> with <strong>CloudFront</strong> for CDN distribution and 
+                <strong>Route 53</strong> for domain management, ensuring fast performance and global availability.
+            </p>
+
+            <!-- Personal Website Tech Stack Icons -->
+            <div class="tech-stack-container text-center">
+                <div class="tech-stack">
+                    <div class="tech-icon" data-info="HTML5 for site structure">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <div class="tech-icon" data-info="CSS3 + Bootstrap for responsive design">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <div class="tech-icon" data-info="JavaScript for interactivity">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <div class="tech-icon" data-info="AWS S3, CloudFront & Route 53 for hosting">
+                        <i class="fab fa-aws"></i>
+                    </div>
+                </div>
+                <p class="tech-info-text" id="tech-info">Hover over an icon for info</p>
+            </div>
+
+
+
+            <div class="text-center mt-3">
+                <div id="github-stats" class="github-stats mx-auto mb-2">
+                    <i class="fab fa-github"></i> <span>Loading live GitHub stats...</span>
+                </div>
+
+                <div>
+                    <a href="https://github.com/katelynzurn/katelynzurn-website" target="_blank" class="btn btn-secondary">View on GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+    <!-- Project 2 -->
+    <section class="section-alt" id="web-application">
+        <div class="container">
+            <h3>Life Insurance Web Application Modernization Project</h3>
+            <p>
+                Contributed to the modernization of a legacy enterprise-level life insurance Java-based web application,
+                migrating from <strong>Struts</strong> and <strong>YUI</strong> to <strong>Spring MVC</strong>
+                and <strong>Vue.js</strong>. Focused on building new interactive pages, improving
+                performance, and ensuring seamless integration between frontend components and backend services.
+            </p>
+            <p>
+                The application is containerized and deployed via <strong>AWS Kubernetes (EKS)</strong>,
+                leveraging cloud-native scalability, CI/CD automation, and secure infrastructure practices.
+            </p>
+            <p><em>Note: Due to confidentiality, code and visuals for this project cannot be shared.</em></p>
+
+            <!-- Achievements / Impact -->
+            <div class="achievements-section text-center">
+                <h4>Key Achievements & Impact</h4>
+                <ul class="achievements-list">
+                    <li><i class="fa-solid fa-circle-check achievement-icon"></i> Deployment times reduced to <strong>under 5 minutes</strong>, down from over 10 minutes, improving release efficiency.</li>
+                    <li><i class="fa-solid fa-circle-check achievement-icon"></i> Application maintains over <strong>99.5% uptime</strong>, ensuring high availability for users.</li>
+                    <li><i class="fa-solid fa-circle-check achievement-icon"></i> End-users can enter and retrieve data faster thanks to modernized frontend components.</li>
+                    <li><i class="fa-solid fa-circle-check achievement-icon"></i> No maintenance windows required due to autonomous Kubernetes deployments.</li>
+                    <li><i class="fa-solid fa-circle-check achievement-icon"></i> Refactored legacy <strong>Struts 1</strong> and <strong>YUI</strong> components into modern <strong>Vue.js</strong> components.</li>
+                    <li><i class="fa-solid fa-circle-check achievement-icon"></i> Developed a new WYSIWYG editor, replacing a 15-year-old legacy editor, enhancing usability.</li>
+                    <li><i class="fa-solid fa-circle-check achievement-icon"></i> Implemented monitoring via <strong>Dynatrace</strong> and <strong>Splunk</strong> with automated outage alerts.</li>
+                </ul>
+            </div>
+
+            <!-- Web Application Tech Stack Icons -->
+            <div class="tech-stack-container text-center">
+                <div class="tech-stack">
+                    <div class="tech-icon" data-info="Java for backend logic">
+                        <i class="fab fa-java"></i>
+                    </div>
+                    <div class="tech-icon" data-info="Spring Boot & MVC backend">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <div class="tech-icon" data-info="Vue.js frontend">
+                        <i class="fab fa-vuejs"></i>
+                    </div>
+                    <div class="tech-icon" data-info="AWS EKS for deployment">
+                        <i class="fab fa-aws"></i>
+                    </div>
+
+                </div>
+                <p class="tech-info-text" id="tech-info-webapp">Hover over an icon for info</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+    </script> 
+    <script>
+    window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
+    </script> 
+    <script src="../js/bootstrap.min.js">
+    </script> 
+    <script src="../js/scripts.js">
+    </script>
+</body>
+</html>
