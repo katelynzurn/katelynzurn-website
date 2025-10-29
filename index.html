@@ -14,7 +14,7 @@
     <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
       integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" rel="stylesheet">
     <!-- FontAwesome Icon Font -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <!-- LinearIcons Icon Font -->
     <link href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css" rel="stylesheet">
     <!-- Main Stylesheet -->
@@ -24,6 +24,16 @@
 </head>
 
 <body>
+    <!-- HAMBURGER BUTTON FOR MOBILE -->
+    <button id="sidebar-toggle">&#9776;</button>
+
+    <!-- STICKY LEFT NAV -->
+    <nav id="sidebar">
+        <div id="sidebar-content">
+            <div id="nav-placeholder"></div>
+        </div>
+    </nav>
+
     <!-- INTRO SECTION -->
     <section class="section-image">
         <div class="img-overlay"></div>
@@ -44,9 +54,9 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <div class="social">
-                            <a href="mailto:kmzurn@gmail.com" target="_blank"><i class="fa fa-envelope fa-3x"></i></a>
-                            <a href="https://www.linkedin.com/in/katelynzurn/" target="_blank"><i class="fa fa-linkedin fa-3x"></i></a>
-                            <a href="https://github.com/katelynzurn" target="_blank"><i class="fa fa-github fa-3x"></i></a>
+                            <a href="mailto:kmzurn@gmail.com" target="_blank"><i class="fas fa-envelope fa-3x"></i></a>
+                            <a href="https://www.linkedin.com/in/katelynzurn/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+                            <a href="https://github.com/katelynzurn" target="_blank"><i class="fab fa-github fa-3x"></i></a>
                             <!--a href="http://www.instagram.com/katelyn_zurn" target="_blank"><i class="fa fa-instagram fa-3x"></i></a-->
                             <!--a href="https://www.facebook.com/Katelyn.Zurn/" target="_blank"><i class="fa fa-facebook fa-3x"></i></a-->
                         </div><!-- /social -->
@@ -216,30 +226,7 @@
         </div> <!-- / container -->
     </section>
 
-    <!-- FOOTER SECTION -->
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <p><a href="http://creativecommons.org/licenses/by/4.0/"target="_blank"><i class="fa fa-creative-commons"></i>Attribution 4.0 License</a></p>
-                </div>
-
-                <div class="col-md-4 text-center">
-                    <p>Website Template: <a href="http://www.izzydoesizzy.com" target="_blank">Creator</a> | <a href="http://www.clearcareer.ca" target="_blank">Designer</a></p>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="social-footer">
-                        <a href="mailto:kmzurn@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
-                            <a href="https://www.linkedin.com/in/katelynzurn/" target="_blank"><i class="fa fa-linkedin"></i></a>
-                            <a href="https://github.com/katelynzurn" target="_blank"><i class="fa fa-github"></i></a>
-                            <!--a href="http://www.instagram.com/katelyn_zurn" target="_blank"><i class="fa fa-instagram"></i></a-->
-                            <!--a href="https://www.facebook.com/Katelyn.Zurn/" target="_blank"><i class="fa fa-facebook"></i></a-->
-                    </div> <!-- /social footer -->
-                </div> <!-- /col-md-4 -->
-            </div><!-- /row -->
-        </div><!-- /container -->
-    </footer>
+    
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
