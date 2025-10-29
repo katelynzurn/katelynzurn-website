@@ -516,7 +516,7 @@ footer {
     background-color: black;
     color: #fff;
     padding: 50px 0;
-    margin-left: 180px; /* space for sidebar */
+    padding-left: 180px; /* space for sidebar */
 
 }
 
@@ -565,6 +565,11 @@ footer p {
 @media (max-width: 991px) {
     body {
         margin-left: 0;
+    }
+
+    footer {
+        padding-left: 0;  /* remove the left offset */
+        width: 100%;     /* ensure it spans full width */
     }
 
     #sidebar {
